@@ -13,7 +13,7 @@ let sumaLista = 0;
 
 for (i=0 ; i < listaNumeros.length ; i++) {
 
- sumaLista += Number(listaNumeros[i].innerText)
+    sumaLista += Number(listaNumeros[i].innerText)
 
 }
 
@@ -30,6 +30,7 @@ masPequeño = Number(listaNumeros[0].innerText)
 
 for (i = 1 ; i < listaNumeros.length ; i++) {
 if (masPequeño > Number(listaNumeros[i].innerText)){
+    
     masPequeño = Number(listaNumeros[i].innerText)
 }
 
